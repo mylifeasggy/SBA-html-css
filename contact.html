@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <style>
+        @media only screen and (min-width: 600px) {}
+        body{
+        font-family:"Poppins", sans-serif;
+        margin: 0;
+        background-color:#461220;
+
+        }
+
+
+        h1, p{
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+    
+        }
+        
+        .contactform {
+            width: 100%;
+            background-color:#461220;
+            padding: 50px;
+            justify-content: center;
+    
+           
+    
+        }
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            height: 25px;
+            background-color: #ffa5abff;
+            border: 1px solid #ffa5abff;
+            font-family:"Poppins", sans-serif;
+            border-radius: 10px;
+        }
+            
+        
+            #form{
+            height: 150px;
+            width: 400px;
+
+        }
+
+
+        .submitbtn {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 400px;          
+            color:#da627dff;
+            font-size: small;
+            height: 60px;
+            border: 1px solid #ffa5abff;
+            font-family:"Poppins", sans-serif;
+            background-color: #ffa5abff;
+            border-radius: 10px;
+
+
+        }
+
+        .submitbtn:hover {
+            background-color:#461220;
+            color:white;
+            cursor: pointer; 
+        }
+        ::placeholder {
+            text-align: left;
+            color: #da627dff;
+            padding-left: 10px;
+        }
+
+        footer {
+            background-color:#461220;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;}
+
+/* NAVIGATION BAR */
+.navbar{
+background-color: #461220;
+font-style: normal;
+display: flex;
+position: fixed;
+top: 0;
+width: 100%;
+
+
+}
+
+.navbar a {
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:#FED0BB;
+ 
+  
+  
+}
+
+
+
+.drophome .homebtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #461220;
+    font-family:"Poppins", sans-serif;
+    color:#FED0BB;
+    padding: 14px 16px;
+    cursor: pointer;
+
+}
+.homecontent {
+
+    position: absolute;
+    display: none;
+    color: #461220;
+    text-decoration: none;
+    min-width: 160px;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #461220
+    
+}
+
+.homecontent a{ 
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    background-color: #461220
+}
+
+
+.drophome:hover .homecontent{
+   display: block; 
+}
+        </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="drophome"> 
+            <a href="index.html">    <button class="homebtn"> Home  </button> </a>
+         
+            <div class="homecontent">
+                <a href="aboutme.html"> About me </a> 
+            </div>
+    </div>
+
+
+    <div class="contactform">
+        <h1> Let's get in touch</h1>
+         <input type="text" placeholder="Your name"   name="name"  required />
+         <input type="email" placeholder="Your email" name="email" required/>
+         <input type="text" placeholder="About a new project" name="project" required/>
+         <input id="form" type="text" placeholder="How can I help?" name="help " required/>
+         <button class="submitbtn"type="submit"> Send Message </button>
+     </div>
+
+
+
+
+
+     <footer>
+        <p>&copy; 2025   My Solo Project</p>
+    </footer>
+    
+</body>
+</html>
