@@ -99,6 +99,9 @@ z-index: 100;
     display: block;
     width: 400px;
     height: 400px;
+    border: 0px solid #da627dff;
+    border-radius: 25px;
+    
   }
   
   .overlay {
@@ -112,6 +115,8 @@ z-index: 100;
     opacity: 0;
     transition: .5s ease;
     background-color:#da627dff;
+    border: 0px solid #da627dff;
+    border-radius: 25px;
   }
   
   .container:hover .overlay {
@@ -143,6 +148,8 @@ z-index: 100;
     display: block;
     width: 400px;
     height: 400px;
+    border: 0px solid #da627dff;
+    border-radius: 25px;
     
   }
   
@@ -157,6 +164,8 @@ z-index: 100;
     opacity: 0;
     transition: .5s ease;
     background-color:#da627dff;
+    border: 0px solid #da627dff;
+    border-radius: 25px;
   }
   
   .container2:hover .overlay2 {
